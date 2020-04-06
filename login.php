@@ -68,7 +68,7 @@ if(isset($_SESSION['login']) && !empty($_SESSION['login'])) {
             <span class="h4">La base de donné s'appel ledauphine</span><br>
             <span class="h4">Table utilisateur</span><br>
             <span class="h4">Table annonce</span><br>
-            <span class="h4">le fichier sql se trouve dans le git hub ledauphine.sql</span><br>
+            <span class="h4">le fichier sql se trouve dans le git hub git hub dossier sql</span><br>
         </p>
     </div>               
 </div>
