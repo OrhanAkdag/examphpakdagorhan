@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  lun. 06 avr. 2020 à 13:52
+-- Généré le :  lun. 06 avr. 2020 à 14:27
 -- Version du serveur :  10.4.10-MariaDB
 -- Version de PHP :  7.4.0
 
@@ -63,14 +63,14 @@ CREATE TABLE IF NOT EXISTS `utilisateur` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `utilisateur_id_uindex` (`id`),
   UNIQUE KEY `utilisateur_login_uindex` (`login`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `utilisateur`
 --
 
 INSERT INTO `utilisateur` (`id`, `login`, `nom`, `prenom`, `password`) VALUES
-(1, 'admin', 'Orhan', 'Akdag', '0d61130a6dd5eea85c2c5facfe1c15a7'),
+(1, 'admin', 'Orhan', 'Akdag', '21232f297a57a5a743894a0e4a801fc3'),
 (2, 'Journaliste', 'Jean', 'Pierre', '170b9dcf4a2946df4fdddaf2f387d990');
 COMMIT;
 
