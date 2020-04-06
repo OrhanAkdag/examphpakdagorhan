@@ -1,5 +1,9 @@
 <?php
 include 'model.php';
+if ($_SESSION['id'] !=1){
+    header('location: not-found.php');
+}
+
 ?>
 
 <body>
